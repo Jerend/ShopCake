@@ -1,0 +1,8 @@
+CREATE TABLE `Cake_Commission` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`Cakeid` INT NOT NULL COMMENT 'id торта',
+	`Commissionid` INT NOT NULL COMMENT 'id заказа',
+	`quantity` INT COMMENT 'количество позиций в заказе (сколько нужно заказать шт.)',
+	`cost` INT COMMENT 'стоимость заказа',
+	PRIMARY KEY (`id`,`Cakeid`,`Commissionid`)
+);
