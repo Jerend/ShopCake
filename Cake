@@ -1,0 +1,11 @@
+CREATE TABLE `Cake` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`Name` VARCHAR(30) NOT NULL,
+	`Description` VARCHAR(100) NOT NULL,
+	`Img` VARCHAR(100) NOT NULL COMMENT 'Картинка',
+	`Weight` DECIMAL(6) COMMENT 'Вес',
+	`Price` INT COMMENT 'Цена',
+	`Availability` INT COMMENT 'Наличие (от 0, 1, 2, и тд.))',
+	`Category_id` INT NOT NULL COMMENT 'id категории к которой он относится (пироженые, кексы, торты и так далее)',
+	PRIMARY KEY (`id`,`Category_id`)
+);
