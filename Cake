@@ -6,6 +6,6 @@ CREATE TABLE `Cake` (
 	`Weight` DECIMAL(6) COMMENT 'Вес',
 	`Price` INT COMMENT 'Цена',
 	`Availability` INT COMMENT 'Наличие (от 0, 1, 2, и тд.))',
-	`Category_id` INT NOT NULL COMMENT 'id категории к которой он относится (пироженые, кексы, торты и так далее)',
+	`Categoryid` INT NOT NULL COMMENT 'id категории к которой он относится (пироженые, кексы, торты и так далее)',
 	PRIMARY KEY (`id`,`Category_id`)
 );
