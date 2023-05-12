@@ -1,0 +1,6 @@
+CREATE TABLE `Client` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`FirstName` VARCHAR(20) NOT NULL COMMENT 'Имя',
+	`LastName` VARCHAR(20) NOT NULL COMMENT 'Фамилия',
+	PRIMARY KEY (`id`)
+);
