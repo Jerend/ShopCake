@@ -1,0 +1,6 @@
+CREATE TABLE `Review` (
+	`id` INT NOT NULL AUTO_INCREMENT COMMENT 'id отзыва',
+	`Description` VARCHAR(200) NOT NULL COMMENT 'Сам отзыв',
+	`Cakeid` INT NOT NULL COMMENT 'id товара к которому отзыв относится',
+	PRIMARY KEY (`id`,`Cakeid`)
+);
