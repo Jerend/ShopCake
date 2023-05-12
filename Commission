@@ -1,0 +1,7 @@
+CREATE TABLE `Commission` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`Date` DATE NOT NULL COMMENT 'Дата заказа',
+	`Quantity` INT NOT NULL COMMENT 'Общее количество всех заказанных товаров',
+	`FinalCost` INT NOT NULL COMMENT 'Конечная стоимость заказа',
+	PRIMARY KEY (`id`)
+);
