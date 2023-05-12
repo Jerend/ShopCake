@@ -1,0 +1,6 @@
+CREATE TABLE `Fillings` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`Name` VARCHAR(25) NOT NULL COMMENT 'Название начинки',
+	`Description` VARCHAR(120) NOT NULL COMMENT 'Описание начинки',
+	PRIMARY KEY (`id`)
+);
