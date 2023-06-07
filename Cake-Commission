@@ -3,6 +3,7 @@ CREATE TABLE `Cake_Commission` (
 	`Cakeid` INT NOT NULL COMMENT 'id торта',
 	`Commissionid` INT NOT NULL COMMENT 'id заказа',
 	`Weight` INT COMMENT 'вес заказа',
+	`Number_of_tiers` INT NOT NULL COMMENT 'Количество ярусов',
 	`Cost` INT COMMENT 'стоимость заказа',
 	PRIMARY KEY (`id`,`Cakeid`,`Commissionid`)
 );
