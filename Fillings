@@ -1,6 +1,8 @@
 CREATE TABLE `Fillings` (
 	`id` INT NOT NULL AUTO_INCREMENT,
 	`Name` VARCHAR(25) NOT NULL COMMENT 'Название начинки',
+	`Mini_cut_photo`VARCHAR(80) NOT NULL COMMENT 'Мини фото торта в разрезе',
+	`Cutaway_cake_photo` VARCHAR(80) NOT NULL COMMENT 'Фото торта в разрезе',
 	`Description` VARCHAR(120) NOT NULL COMMENT 'Описание начинки',
 	PRIMARY KEY (`id`)
 );
